@@ -15,7 +15,7 @@ import burlap.oomdp.visualizer.Visualizer;
 
 public class EasyGridWorldLauncher {
 
-	private static boolean visualizeInitialGridWorld = false; //Loads a GUI with the agent, walls, and goal
+	private static boolean visualizeInitialGridWorld = true; //Loads a GUI with the agent, walls, and goal
 	
 	//runValueIteration, runPolicyIteration, and runQLearning indicate which algorithms will run in the experiment
 	private static boolean runValueIteration = true; 
